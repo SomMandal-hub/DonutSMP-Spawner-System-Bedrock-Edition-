@@ -1,0 +1,54 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§eDonutSMP §6Spawner System §7[§bBP§7]",
+    "description": "Virtual Stacked Spawners & 54-Slot Chest Collection GUI\nBy SomMondal123",
+    "uuid": "c8a5df1f-c1a8-4922-a855-a07c10c4c702",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "DonutSMP Spawner Script",
+      "uuid": "a2a67fe4-9328-49f0-87e6-a2c8c34b468f",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/index.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "fae1b0af-914c-4062-8b48-1bd920f21c98",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "beta"
+    }
+  ],
+  "metadata": {
+    "authors": ["SomMondal123"],
+    "license": "All Rights Reserved"
+  }
+}
