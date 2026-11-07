@@ -1,0 +1,3 @@
+Spawner structure files (structures/mystructure/*.mcstructure)
+Made by Som Mondal with the help of Claude.
+Generated from scratch with a script; no third-party structures are used.
